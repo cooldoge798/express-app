@@ -4,7 +4,7 @@ var config = require('../config');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: config.appName });
+  res.render('index', { title: config.appName, users: config.userList, });
 });
 
 module.exports = router;
