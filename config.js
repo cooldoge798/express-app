@@ -13,7 +13,7 @@ var config = {
             name: "User 2",
             email: "user2@email.com",
         },
-    ]
+    ],
 };
 
 module.exports = config;
